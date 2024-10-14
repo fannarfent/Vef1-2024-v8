@@ -1,5 +1,7 @@
 # Vefforritun 1, 2024: Verkefni 8, JS #1
 
+- [Vefforritun 1, 2024, fyrirlestur 9.4: Verkefni 8](https://www.youtube.com/watch?v=2Sfcm0KfSaM)
+
 ## Markmið
 
 - Skipta JavaScript forriti upp í einingar.
