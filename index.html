@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <title>Verkefni 8: Strengjagreinir</title>
   <link rel="stylesheet" href="styles.css">
-  <script type="module" src="scripts.js"></script>
+  <script type="module" src="/scripts.js"></script>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
       <textarea id="string" name="string" rows="4" cols="50"></textarea>
       <div class="buttons">
         <button type="submit">Greining</button>
-        <button type="reset">Hreinsa</button>
+        <button type="button" id="clear-button">Hreinsa</button>
       </div>
       <!--
         Þetta er sjálfgefið falið með CSS þar til JavaScript kóði keyrir greiningu.
@@ -38,7 +38,7 @@
           <li>Stysta orðið er: <code class="shortest">hæ</code>.</li>
           <li>Fjöldi sérhljóða er: <code class="vowels">6</code>.</li>
           <li>Fjöldi samhljóða er: <code class="consonants">7</code>.</li>
-          <li>Strengurinn er <span class="palindrome">ekki</span> samhverfur.</li>
+          <li>Strengurinn er <span class="palindrome">ekki</span></li>
         </ul>
         <p>Viðsnúinn er strengurinn:</p>
         <code class="wide"><pre class="reversed">!rumieh æh óllaH</pre></code>
